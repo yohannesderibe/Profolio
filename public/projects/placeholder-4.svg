@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#12121a"/>
+    </linearGradient>
+  </defs>
+  <rect fill="url(#bg)" width="800" height="500"/>
+  <rect x="40" y="40" width="720" height="420" rx="12" fill="none" stroke="rgba(0,212,255,0.2)" stroke-width="1"/>
+  <line x1="40" y1="100" x2="760" y2="100" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="70" cy="70" r="8" fill="rgba(255,80,80,0.5)"/>
+  <circle cx="95" cy="70" r="8" fill="rgba(255,200,80,0.5)"/>
+  <circle cx="120" cy="70" r="8" fill="rgba(80,255,120,0.5)"/>
+  <text x="400" y="240" text-anchor="middle" fill="#6b7280" font-family="monospace" font-size="14">Replace with project screenshot</text>
+  <text x="400" y="270" text-anchor="middle" fill="#00d4ff" font-family="monospace" font-size="12">PROJECT PLACEHOLDER</text>
+</svg>
