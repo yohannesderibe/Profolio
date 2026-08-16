@@ -1,10 +1,12 @@
 import { Link } from 'react-router-dom'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+// import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+
 import { navLinks, socialLinks } from '@/data/social'
 
 export function Footer() {
   const github = socialLinks.find((s) => s.icon === 'github')
-  const linkedin = socialLinks.find((s) => s.icon === 'linkedin')
+  // const linkedin = socialLinks.find((s) => s.icon === 'linkedin')
 
   return (
     <footer className="relative border-t border-border bg-bg-secondary section-padding">
@@ -56,7 +58,7 @@ export function Footer() {
                 <FaGithub size={18} />
               </a>
             )}
-            {linkedin && (
+            {/* {linkedin && (
               <a
                 href={linkedin.url}
                 target="_blank"
@@ -66,7 +68,7 @@ export function Footer() {
               >
                 <FaLinkedin size={18} />
               </a>
-            )}
+            )} */}
           </div>
         </div>
 

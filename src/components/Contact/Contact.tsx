@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+// import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa'
+
 import { FiMail, FiDownload, FiCheck, FiAlertCircle } from 'react-icons/fi'
 import { SectionHeading, Reveal } from '@/components/ui/SectionHeading'
 import { Button } from '@/components/ui/Button'
@@ -49,7 +51,7 @@ export function Contact() {
 
   const email = socialLinks.find((s) => s.icon === 'email')
   const github = socialLinks.find((s) => s.icon === 'github')
-  const linkedin = socialLinks.find((s) => s.icon === 'linkedin')
+  // const linkedin = socialLinks.find((s) => s.icon === 'linkedin')
 
   return (
     <section id="contact" className="relative section-padding">
@@ -90,7 +92,7 @@ export function Contact() {
                     <FaGithub size={20} />
                   </a>
                 )}
-                {linkedin && (
+                {/* {linkedin && (
                   <a
                     href={linkedin.url}
                     target="_blank"
@@ -100,7 +102,7 @@ export function Contact() {
                   >
                     <FaLinkedin size={20} />
                   </a>
-                )}
+                )} */}
               </div>
 
               <Button href={CV_URL} variant="secondary" external>
