@@ -3,7 +3,7 @@ import { slugify } from '@/utils'
 
 import InventoryManagementImage from '../../pictures/inventory_real.png'
 import bloodDonationImage from '../../pictures/Blood_Donation_Dashboard.png'
-import yohannesWatchImage from '../../pictures/Watch.png'
+import yohannesWatchImage from '../../pictures/watch.png'
 import sunChpis from '../../pictures/sun-chpis-1.png'
 import SkyObservatory from '../../pictures/Sky Observatory.png'
 
